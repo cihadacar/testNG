@@ -7,7 +7,7 @@ Feature: Login to HRM Application
   Scenario: Login with valid credentials
 
     When User enters username as "Admin" and password as "admin123"
-    Then User should be able to login sucessfully and new page open
+    Then User should be able to login successfully and new page open
 
   @InvalidCredentials
   Scenario Outline: Login with invalid credentials
